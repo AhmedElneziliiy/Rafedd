@@ -1,0 +1,50 @@
+
+==================================================================
+
+==================================================================
+aaPanel Internet Address: https://217.217.255.74:22648/0c4502b0
+aaPanel Internal Address: https://217.217.255.74:22648/0c4502b0
+username: b38sdnnn
+password: 29002260
+Warning:
+If you cannot access the panel,
+release the following port (22648|888|80|443|20|21) in the security group
+==================================================================
+https://platform.openai.com
+USER - emadq8@gmail.com
+PASS - 31ueq6z2zYfLWJoXKgG
+==================================================================
+contabo VPS Server
+USER - root
+PASS - 31ueq6z2zYfLWJoXKgG
+IP - 217.217.255.74
+==================================================================
+Please check the following link of all technical resources for the API V2.
+
+
+
+Documentation: https://myfatoorah.readme.io/docs/overview
+
+
+
+ For Testing API URL: https://apitest.myfatoorah.com/swagger
+
+
+
+ For demo Token: https://myfatoorah.readme.io/docs/demo-information
+
+
+
+ For Test Cards: https://myfatoorah.readme.io/docs/test-cards
+
+
+
+ Sample Code: https://myfatoorah.readme.io/docs/sample-code
+
+
+
+Mobile SDKs: https://myfatoorah.readme.io/docs/sdk-guide
+
+
+
+ Flutter Plugin: https://myfatoorah.readme.io/docs/flutter

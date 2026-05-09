@@ -1,0 +1,41 @@
+= * 100
+  TESTING GEMINI AI - ANNUAL TARGET WITH 48-WEEK PLAN GENERATION
+= * 100
+
+STEP 1: LOGIN AS MANAGER
+- * 100
+   SUCCESS - Logged in
+   Manager: 
+   Email: manager@rafeed.com
+
+STEP 2: CREATE ANNUAL TARGET - GEMINI AI WILL GENERATE 48-WEEK PLAN
+- * 100
+
+Sending request to Gemini AI...
+This may take 10-30 seconds as AI generates the complete plan...
+
+Request Body:
+{
+    "targetYear":  2026,
+    "description":  "Annual revenue target for 2026 - Complete AI Planning Test",
+    "totalTargetRevenue":  1000000
+}
+
+Calling API... (Gemini AI is working in the background)
+
+= * 100
+  GEMINI AI ERROR
+= * 100
+
+Error: The remote server returned an error: (400) Bad Request.
+
+This could be due to:
+  1. Gemini API key is invalid
+  2. Gemini API quota exceeded
+  3. Network connectivity issues
+  4. Subscription requirement not met
+
+
+= * 100
+  TEST COMPLETE
+= * 100

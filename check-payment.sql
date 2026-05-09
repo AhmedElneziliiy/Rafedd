@@ -1,0 +1,1 @@
+SELECT TOP 5 * FROM Payments ORDER BY Id DESC;

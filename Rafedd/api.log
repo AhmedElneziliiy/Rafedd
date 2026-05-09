@@ -1,0 +1,146 @@
+Using launch settings from D:\Rafedd-master\Rafedd\Properties\launchSettings.json...
+warn: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[16]
+      The WebRootPath was not found: D:\Rafedd-master\Rafedd\wwwroot. Static files may be unavailable.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5041
+info: Hangfire.BackgroundJobServer[0]
+      Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for Hangfire Server:
+          Worker count: 20
+          Listening queues: 'default'
+          Shutdown timeout: 00:00:15
+          Schedule polling interval: 00:00:15
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\Rafedd-master\Rafedd
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server vv-cai-technica:22052:eccd22aa successfully announced in 3.9602 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server vv-cai-technica:22052:eccd22aa is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server vv-cai-technica:22052:eccd22aa all the dispatchers started
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'AnnualTarget'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'Admin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'Employee' has a global query filter defined and is the required end of a relationship with the entity 'ImportantNote'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'Notification'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'UserActivity'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'PaymentMethod'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'Manager' has a global query filter defined and is the required end of a relationship with the entity 'Subscription'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'Employee' has a global query filter defined and is the required end of a relationship with the entity 'Suggestion'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'TaskAssignment'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'TaskItem'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'Employee' has a global query filter defined and is the required end of a relationship with the entity 'TaskReport'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'UserSettings'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'Employee' has a global query filter defined and is the required end of a relationship with the entity 'WeeklyCost'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (25ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+      FROM [AspNetUsers] AS [a]
+      WHERE [a].[IsActive] = CAST(1 AS bit) AND [a].[NormalizedEmail] = @__normalizedEmail_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT [a0].[Name]
+      FROM [AspNetUserRoles] AS [a]
+      INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+      WHERE [a].[UserId] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT [a0].[Name]
+      FROM [AspNetUserRoles] AS [a]
+      INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+      WHERE [a].[UserId] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [m].[Id], [m].[BusinessDescription], [m].[BusinessType], [m].[CompanyName], [m].[CreatedAt], [m].[IsActive], [m].[SubscriptionEndsAt], [m].[SubscriptionId], [m].[UpdatedAt], [m].[UserId]
+      FROM [Managers] AS [m]
+      WHERE [m].[IsActive] = CAST(1 AS bit) AND [m].[UserId] = @__userId_0 AND [m].[IsActive] = CAST(1 AS bit)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__managerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[Id], [s].[AutoRenew], [s].[EndDate], [s].[IsActive], [s].[ManagerId], [s].[StartDate], [s].[SubscriptionPlanId], [s0].[Id], [s0].[Description], [s0].[IsActive], [s0].[MaxEmployees], [s0].[Name], [s0].[PricePerMonth], [t].[Id], [t].[BusinessDescription], [t].[BusinessType], [t].[CompanyName], [t].[CreatedAt], [t].[IsActive], [t].[SubscriptionEndsAt], [t].[SubscriptionId], [t].[UpdatedAt], [t].[UserId], [t0].[Id], [t0].[AccessFailedCount], [t0].[ConcurrencyStamp], [t0].[CreatedAt], [t0].[Email], [t0].[EmailConfirmed], [t0].[FullName], [t0].[IsActive], [t0].[LockoutEnabled], [t0].[LockoutEnd], [t0].[NormalizedEmail], [t0].[NormalizedUserName], [t0].[PasswordHash], [t0].[PhoneNumber], [t0].[PhoneNumberConfirmed], [t0].[SecurityStamp], [t0].[TwoFactorEnabled], [t0].[UpdatedAt], [t0].[UserName]
+      FROM [Subscriptions] AS [s]
+      INNER JOIN [SubscriptionPlans] AS [s0] ON [s].[SubscriptionPlanId] = [s0].[Id]
+      INNER JOIN (
+          SELECT [m].[Id], [m].[BusinessDescription], [m].[BusinessType], [m].[CompanyName], [m].[CreatedAt], [m].[IsActive], [m].[SubscriptionEndsAt], [m].[SubscriptionId], [m].[UpdatedAt], [m].[UserId]
+          FROM [Managers] AS [m]
+          WHERE [m].[IsActive] = CAST(1 AS bit)
+      ) AS [t] ON [s].[ManagerId] = [t].[Id]
+      INNER JOIN (
+          SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+          FROM [AspNetUsers] AS [a]
+          WHERE [a].[IsActive] = CAST(1 AS bit)
+      ) AS [t0] ON [t].[UserId] = [t0].[Id]
+      WHERE [s].[ManagerId] = @__managerId_0 AND [s].[IsActive] = CAST(1 AS bit)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__managerUserId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [Employees] AS [e]
+      WHERE [e].[IsActive] = CAST(1 AS bit) AND [e].[ManagerUserId] = @__managerUserId_0 AND [e].[IsActive] = CAST(1 AS bit)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[Id], [s].[AutoRenew], [s].[EndDate], [s].[IsActive], [s].[ManagerId], [s].[StartDate], [s].[SubscriptionPlanId], [s0].[Id], [s0].[Description], [s0].[IsActive], [s0].[MaxEmployees], [s0].[Name], [s0].[PricePerMonth], [t].[Id], [t].[BusinessDescription], [t].[BusinessType], [t].[CompanyName], [t].[CreatedAt], [t].[IsActive], [t].[SubscriptionEndsAt], [t].[SubscriptionId], [t].[UpdatedAt], [t].[UserId], [t0].[Id], [t0].[AccessFailedCount], [t0].[ConcurrencyStamp], [t0].[CreatedAt], [t0].[Email], [t0].[EmailConfirmed], [t0].[FullName], [t0].[IsActive], [t0].[LockoutEnabled], [t0].[LockoutEnd], [t0].[NormalizedEmail], [t0].[NormalizedUserName], [t0].[PasswordHash], [t0].[PhoneNumber], [t0].[PhoneNumberConfirmed], [t0].[SecurityStamp], [t0].[TwoFactorEnabled], [t0].[UpdatedAt], [t0].[UserName]
+      FROM [Subscriptions] AS [s]
+      INNER JOIN [SubscriptionPlans] AS [s0] ON [s].[SubscriptionPlanId] = [s0].[Id]
+      INNER JOIN (
+          SELECT [m].[Id], [m].[BusinessDescription], [m].[BusinessType], [m].[CompanyName], [m].[CreatedAt], [m].[IsActive], [m].[SubscriptionEndsAt], [m].[SubscriptionId], [m].[UpdatedAt], [m].[UserId]
+          FROM [Managers] AS [m]
+          WHERE [m].[IsActive] = CAST(1 AS bit)
+      ) AS [t] ON [s].[ManagerId] = [t].[Id]
+      INNER JOIN (
+          SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+          FROM [AspNetUsers] AS [a]
+          WHERE [a].[IsActive] = CAST(1 AS bit)
+      ) AS [t0] ON [t].[UserId] = [t0].[Id]
+      WHERE [s].[Id] = @__id_0
+info: System.Net.Http.HttpClient.Default.LogicalHandler[100]
+      Start processing HTTP request POST https://apitest.myfatoorah.com/v2/SendPayment
+info: System.Net.Http.HttpClient.Default.ClientHandler[100]
+      Sending HTTP request POST https://apitest.myfatoorah.com/v2/SendPayment
+info: System.Net.Http.HttpClient.Default.ClientHandler[101]
+      Received HTTP response headers after 1323.5162ms - 401
+info: System.Net.Http.HttpClient.Default.LogicalHandler[101]
+      End processing HTTP request after 1329.1934ms - 401
+fail: BLL.Service.PaymentService[0]
+      Error initiating My Fatoorah payment
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at BLL.Service.PaymentService.InitiateMyFatoorahPaymentAsync(CreatePaymentDto dto) in d:\Rafedd-master\BLL\Service\PaymentService.cs:line 231
+fail: Rafedd.Middleware.GlobalExceptionHandlerMiddleware[0]
+      An unhandled exception occurred: Response status code does not indicate success: 401 (Unauthorized).
+      System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+         at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+         at BLL.Service.PaymentService.InitiateMyFatoorahPaymentAsync(CreatePaymentDto dto) in d:\Rafedd-master\BLL\Service\PaymentService.cs:line 231
+         at Rafedd.Controllers.PaymentController.InitiateMyFatoorahPayment(CreatePaymentDto dto) in d:\Rafedd-master\Rafedd\Controllers\PaymentController.cs:line 97
+         at lambda_method349(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at Rafedd.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in d:\Rafedd-master\Rafedd\Middleware\GlobalExceptionHandlerMiddleware.cs:line 23
